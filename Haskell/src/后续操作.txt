@@ -1,0 +1,7 @@
+ 
+
+main do
+     start<-getCurrentTime
+     operation
+     end<-getCurrentTime
+     print $ diffUTCTime   end start
